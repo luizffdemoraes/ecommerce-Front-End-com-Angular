@@ -8,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class ShopContentComponent implements OnInit {
 
   constructor() { }
-
+  qtdeProdutos: number = 200;
   ngOnInit(): void {
+  }
+  getQtdeProdutos(): number {
+    return this.qtdeProdutos;
   }
 
 }
